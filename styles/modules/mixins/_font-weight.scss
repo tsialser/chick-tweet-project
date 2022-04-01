@@ -1,0 +1,16 @@
+@import '../variables/_font-weight.scss';
+
+@mixin font-weight($weight) {
+    @if $weight == '400' {
+        font-weight: $fontWeight400;
+    }
+    @if $weight == '500' {
+        font-weight: $fontWeight500;
+    }
+    @if $weight == '600' {
+        font-weight: $fontWeight600;
+    }
+    @if $weight == '700' {
+        font-weight: $fontWeight700;
+    }
+}
