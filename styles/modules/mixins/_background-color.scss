@@ -1,0 +1,13 @@
+@import '../variables/_colors.scss';
+
+@mixin background-color($color) {
+    @if $color == 'white' {
+        background-color: $white;
+    }
+    @if $color == 'lightBlack' {
+        background-color: $lightBlack;
+    }
+    @if $color == 'grey' {
+        background-color: $grey;
+    }
+}
